@@ -1,0 +1,15 @@
+[-0.000][INFO]:     ChromeDriver 22.0.1203.0 E:\Browsers\ChromeFiles\chromedriver.exe
+[1.525][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chromeOptions": {
+      "args": [  ],
+      "extensions": [  ]
+   },
+   "platform": "ANY",
+   "version": ""
+}
+
+[1.585][INFO]:      Launching chrome: "C:\Users\Ramanjaneyulu\AppData\Local\Chromium\Application\chrome.exe" --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --ignore-certificate-errors --disable-popup-blocking --homepage=about:blank
+[47.029][SEVERE]:   Failed to initialize connection
+[57.364][INFO]:     Chrome still running after 10s
+[57.364][INFO]:     Chrome shutdown

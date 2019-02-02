@@ -1,0 +1,204 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 27,
+        "name": "Amazon login",
+        "description": "",
+        "id": "loging-amazon-account;amazon-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7095603075,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "open the browser",
+            "match": {
+              "location": "LoingStepDefination.login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 38972577691,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "enter the url",
+            "match": {
+              "location": "LoingStepDefination.enterURL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 514851073,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "enter the \"9052033439\" and \"Araavras@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9052033439",
+                  "offset": 11
+                },
+                {
+                  "val": "Araavras@123",
+                  "offset": 28
+                }
+              ],
+              "location": "LoingStepDefination.user_pwd(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46156043189,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicking in login button",
+            "match": {
+              "location": "LoingStepDefination.loginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 63447340,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "entering the inbox page",
+            "match": {
+              "location": "LoingStepDefination.inboxPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1294735966,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "close the browser",
+            "match": {
+              "location": "LoingStepDefination.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Amazon login",
+        "description": "",
+        "id": "loging-amazon-account;amazon-login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5088059305,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "open the browser",
+            "match": {
+              "location": "LoingStepDefination.login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28051431285,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "enter the url",
+            "match": {
+              "location": "LoingStepDefination.enterURL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 516815280,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "enter the \"9052033438\" and \"Araavras@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9052033438",
+                  "offset": 11
+                },
+                {
+                  "val": "Araavras@1234",
+                  "offset": 28
+                }
+              ],
+              "location": "LoingStepDefination.user_pwd(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2220135670,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicking in login button",
+            "match": {
+              "location": "LoingStepDefination.loginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19113624,
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003c[Your Account]\u003e but was:\u003c[Amazon Sign In]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat stepDefinitions.LoingStepDefination.inboxPage(LoingStepDefination.java:43)\r\n\tat ✽.And entering the inbox page(E:/CatProject/MyFirstCucumberProject/src/main/java/login.feature:20)\r\n",
+              "status": "failed"
+            },
+            "line": 20,
+            "name": "entering the inbox page",
+            "match": {
+              "location": "LoingStepDefination.inboxPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "close the browser",
+            "match": {
+              "location": "LoingStepDefination.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Loging Amazon account",
+    "description": "",
+    "id": "loging-amazon-account",
+    "keyword": "Feature",
+    "uri": "E:/CatProject/MyFirstCucumberProject/src/main/java/login.feature"
+  }
+]

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="129.992813">
+<testcase classname="Loging Amazon account" name="Amazon login" time="94.097258">
+<system-out><![CDATA[Given open the browser......................................................passed
+When enter the url..........................................................passed
+Then enter the "9052033439" and "Araavras@123"..............................passed
+Then user clicking in login button..........................................passed
+And entering the inbox page.................................................passed
+And close the browser.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Loging Amazon account" name="Amazon login 2" time="35.895555">
+<failure message="junit.framework.ComparisonFailure: expected:&lt;[Your Account]&gt; but was:&lt;[Amazon Sign In]&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at stepDefinitions.LoingStepDefination.inboxPage(LoingStepDefination.java:43)&#13;&#10;&#9;at ✽.And entering the inbox page(E:/CatProject/MyFirstCucumberProject/src/main/java/login.feature:20)&#13;&#10;"><![CDATA[Given open the browser......................................................passed
+When enter the url..........................................................passed
+Then enter the "9052033438" and "Araavras@1234".............................passed
+Then user clicking in login button..........................................passed
+And entering the inbox page.................................................failed
+And close the browser.......................................................skipped
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<[Your Account]> but was:<[Amazon Sign In]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at stepDefinitions.LoingStepDefination.inboxPage(LoingStepDefination.java:43)
+	at ✽.And entering the inbox page(E:/CatProject/MyFirstCucumberProject/src/main/java/login.feature:20)
+]]></failure>
+</testcase>
+</testsuite>
